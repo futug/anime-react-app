@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { AiFillHome, AiFillFolderOpen, AiOutlineSearch, AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { IoMdFlame } from "react-icons/io";
 import { BsFillBarChartFill } from "react-icons/bs";
@@ -13,7 +13,7 @@ export const Navbar = () => {
     };
 
     return (
-        <div className="px-3 w-full flex justify-between fixed">
+        <div className="px-3 w-full flex justify-between sticky top-0">
             <div className="  flex-wrap relative lg:max-w-[1300px] w-full gap-4 bg-[#283142] mx-auto flex justify-between items-center p-3 border-b-2 border-[#a52066] rounded-b-md">
                 {/* logo */}
                 <p className="text-xl md:text-xl lg:text-2xl xl:text-3xl text-white cursor-pointer font-bold">BestAnime.org</p>
