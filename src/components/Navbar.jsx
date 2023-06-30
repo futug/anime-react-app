@@ -5,15 +5,20 @@ import { BsFillBarChartFill } from "react-icons/bs";
 import { MdAnnouncement } from "react-icons/md";
 import { GiNinjaHeroicStance } from "react-icons/gi";
 import { BiSolidLogIn } from "react-icons/bi";
+import LoginModal from "./LoginModal";
 
 export const Navbar = () => {
     const [open, setOpen] = useState(false);
     const handleMenuClick = () => {
         setOpen(!open);
     };
-
+    const [modalActive, setModalActive] = useState(true);
+    const handleLoginModal = () => {
+        setModalActive(!modalActive);
+        console.log(modalActive);
+    };
     return (
-        <div className="px-3 w-full flex justify-between sticky top-0">
+        <div className="w-full flex justify-between sticky top-0 z-50">
             <div className="  flex-wrap relative lg:max-w-[1300px] w-full gap-4 bg-[#283142] mx-auto flex justify-between items-center p-3 border-b-2 border-[#a52066] rounded-b-md">
                 {/* logo */}
                 <p className="text-xl md:text-xl lg:text-2xl xl:text-3xl text-white cursor-pointer font-bold">BestAnime.org</p>
@@ -63,7 +68,7 @@ export const Navbar = () => {
                     </div>
                     {/* log-in */}
                     <div className="text-[#c7ccd8] duration-75 transition-all ease-in-out hover:text-slate-100 cursor-pointer flex items-center">
-                        <BiSolidLogIn size={30} />
+                        <BiSolidLogIn onClick={() => handleLoginModal()} size={30} />
                     </div>
 
                     {/* burger - menu */}
@@ -90,6 +95,7 @@ export const Navbar = () => {
                     )}
                 </div>
             </div>
+            <LoginModal active={modalActive} setActive={setModalActive} />
         </div>
     );
 };

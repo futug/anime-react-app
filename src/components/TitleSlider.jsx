@@ -1,6 +1,7 @@
 import React from "react";
 
 export const TitleSlider = (props) => {
+    const seasonsCount = Object.keys(props.slide.seasons).length;
     return (
         <div className="px-1  text-white text-2xl">
             <div className=" w-[150px] relative cursor-pointer">
@@ -9,7 +10,7 @@ export const TitleSlider = (props) => {
                     <p className="font-bold text-[16px] leading-tight pl-3">{props.slide.titleRus}</p>
                     <div className="flex gap-1 pl-3">
                         <p className="text-sm">Сезонов - </p>
-                        <span className="text-sm">9</span>
+                        <span className="text-sm">{seasonsCount}</span>
                     </div>
                 </div>
             </div>
