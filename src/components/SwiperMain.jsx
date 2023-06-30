@@ -33,19 +33,19 @@ const SwiperMain = (props) => {
                         spaceBetween: 10,
                     },
                     "@0.25": {
-                        slidesPerView: 2,
+                        slidesPerView: 1.5,
                         spaceBetween: 10,
                     },
                     "@0.50": {
-                        slidesPerView: 3,
+                        slidesPerView: 2.5,
                         spaceBetween: 0,
                     },
                     "@0.75": {
-                        slidesPerView: 4,
+                        slidesPerView: 4.5,
                         spaceBetween: 0,
                     },
                     "@1.00": {
-                        slidesPerView: 6,
+                        slidesPerView: 5.5,
                         spaceBetween: 0,
                     },
                     "@1.50": {
@@ -58,11 +58,11 @@ const SwiperMain = (props) => {
                     nextEl: swiperNavNext.current,
                     clickable: true,
                 }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log("slide change")}
+                // onSwiper={(swiper) => console.log(swiper)}
+                // onSlideChange={() => console.log("slide change")}
             >
-                {props.slideItem.map((item) => (
-                    <SwiperSlide>
+                {props.slideItem.map((item, index) => (
+                    <SwiperSlide key={index}>
                         <TitleSlider slide={item} />
                     </SwiperSlide>
                 ))}
