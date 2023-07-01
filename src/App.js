@@ -8,7 +8,6 @@ import "swiper/css/scrollbar";
 import SwiperMain from "./components/SwiperMain";
 import AnimeBaseService from "./API/AnimeBaseService";
 import Loader from "./components/Loader";
-import axios from "axios";
 import Genres from "./components/Genres";
 
 function App() {
@@ -29,6 +28,7 @@ function App() {
         <div className="App px-3 max-w-[1300px] mx-auto">
             <Navbar />
             {isLoading ? <Loader describe={"Загружается..."} /> : <SwiperMain slideItem={slideItem} />}
+
             <Genres />
         </div>
     );

@@ -1,41 +1,36 @@
-import axios from "axios";
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Search from "./Search";
 import MyButton from "./MyButton";
+import GenreBaseService from "../API/GenreBaseService";
 
-const Genres = () => {
+const Genres = (props) => {
     const [genres, setGenres] = useState([]);
     const [visible, setVisible] = useState(20);
-    const [searchValue, setSearchValue] = useState("");
+    const [searchByGenre, setSearchByGenre] = useState("");
 
     useEffect(() => {
-        getGenres();
+        getAllGenres();
     }, []);
-
-    async function getGenres() {
-        const response = await axios.get("https://api.jikan.moe/v4/genres/anime");
-        console.log(response.data.data);
-        setGenres(response.data.data);
+    async function getAllGenres() {
+        const base = await GenreBaseService.getGenre();
+        setGenres(base);
     }
+
+    const filteredGenres = genres.filter((genre) => genre.name.toLowerCase().includes(searchByGenre.toLowerCase()));
 
     const showMore = () => {
         visible >= genres.length ? setVisible(20) : setVisible((prevValue) => prevValue + 5);
-        console.log(visible);
     };
 
-    const filteredGenres = useMemo(() => {
-        return genres.filter((genre) => genre.name.toLowerCase().includes(searchValue.toLowerCase()));
-    }, [genres, searchValue]);
-
     return (
-        <div className="w-full lg:w-[25%] xl:w-[25%] bg-[#283142] mt-6 border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
-            <div className="flex justify-between xl:justify-center lg:justify-center gap-5 xl:flex-wrap lg:flex-wrap">
+        <div className="w-full lg:w-[25%] xl:w-[25%] bg-[#283142] mt-5 border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
+            <div className="flex justify-between lg:justify-center xl:lg:justify-center gap-5 flex-wrap">
                 <div className="genres__title flex  gap-2 items-center">
                     <AiOutlineMenu size={20} />
                     <p className="font-semibold text-lg">Genres</p>
                 </div>
-                <Search search={"search by genre"} onSearchChange={setSearchValue} />
+                <Search onChange={setSearchByGenre} value={searchByGenre} search={"search by genre"} />
             </div>
             <div className="genres__list mt-5 ">
                 <ul className="flex flex-wrap justify-center gap-5">

@@ -8,7 +8,7 @@ import { BiSolidLogIn } from "react-icons/bi";
 import LoginModal from "./LoginModal";
 import Search from "./Search";
 
-export const Navbar = () => {
+export const Navbar = (props) => {
     const [open, setOpen] = useState(false);
     const handleMenuClick = () => {
         setOpen(!open);
@@ -64,7 +64,7 @@ export const Navbar = () => {
                     </ul>
 
                     {/* search */}
-                    <Search search={"Search"} />
+                    <Search className="hidden" search={"Search"} />
                     {/* log-in */}
                     <div className="text-[#c7ccd8] duration-75 transition-all ease-in-out hover:text-slate-100 cursor-pointer flex items-center">
                         <BiSolidLogIn onClick={() => handleLoginModal()} size={30} />
