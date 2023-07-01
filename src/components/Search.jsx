@@ -12,9 +12,9 @@ const Search = (props) => {
     return (
         <div
             onClick={() => handleClick()}
-            className={`bg-[#333c4d] rounded-full ${props.className} flex justify-between p-2 items-center  transition-all duration-500 hover:bg-slate-700 ${
-                isClicked ? "w-[280px]" : "w-44"
-            }`}
+            className={`bg-[#333c4d] rounded-full ${
+                props.className
+            } flex lg:flex xl:flex justify-between p-2 items-center  transition-all duration-500 hover:bg-slate-700 ${isClicked ? "w-[280px]" : "w-44"}`}
         >
             <input
                 onChange={(event) => props.onChange(event.target.value)}

@@ -1,26 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Search from "./Search";
 import MyButton from "./MyButton";
-import GenreBaseService from "../API/GenreBaseService";
 
 const Genres = (props) => {
-    const [genres, setGenres] = useState([]);
     const [visible, setVisible] = useState(20);
     const [searchByGenre, setSearchByGenre] = useState("");
 
-    useEffect(() => {
-        getAllGenres();
-    }, []);
-    async function getAllGenres() {
-        const base = await GenreBaseService.getGenre();
-        setGenres(base);
-    }
-
-    const filteredGenres = genres.filter((genre) => genre.name.toLowerCase().includes(searchByGenre.toLowerCase()));
+    const filteredGenres = props.genres.filter((genre) => genre.name.toLowerCase().includes(searchByGenre.toLowerCase()));
 
     const showMore = () => {
-        visible >= genres.length ? setVisible(20) : setVisible((prevValue) => prevValue + 5);
+        visible >= props.genres.length ? setVisible(20) : setVisible((prevValue) => prevValue + 5);
     };
 
     return (
@@ -41,7 +31,7 @@ const Genres = (props) => {
                     ))}
                 </ul>
                 <div onClick={() => showMore()} className="flex justify-center mt-5">
-                    <MyButton>{visible >= genres.length ? "Hide all" : "Show more"}</MyButton>
+                    <MyButton>{visible >= props.genres.length ? "Hide all" : "Show more"}</MyButton>
                 </div>
             </div>
         </div>
