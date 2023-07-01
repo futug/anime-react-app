@@ -30,7 +30,14 @@ const RandomAnime = (props) => {
                                 {props.randomAnime ? props.randomAnime.title_english || props.randomAnime.title : null}
                             </h2>
                             <div className="relative mt-3">
-                                {showImage && <img className="w-[300px]" src={props.randomAnime.images.jpg.large_image_url} alt="random anime" />}
+                                {showImage && (
+                                    <picture>
+                                        <source srcSet={props.randomAnime.images.webp.large_image_url} type="image/webp" />
+                                        <source srcSet={props.randomAnime.images.jpg.large_image_url} type="image/jpeg" />
+                                        <img className="w-[300px]" src={props.randomAnime.images.jpg.large_image_url} alt="random anime" />
+                                    </picture>
+                                )}
+
                                 <p className="absolute top-5 text-lg font-bold bg-[#1aac44] p-2">{props.randomAnime.score}</p>
                             </div>
                         </div>
