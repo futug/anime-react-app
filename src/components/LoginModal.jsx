@@ -19,7 +19,11 @@ const LoginModal = ({ active, setActive }) => {
                 onClick={(e) => e.stopPropagation()}
                 className="modal__content bg-[#283142] p-10 rounded-md relative text-black flex justify-center items-center"
             >
-                <AiOutlineClose onClick={() => handleLoginClose()} size={20} className="absolute top-4 right-4 cursor-pointer text-white" />
+                <AiOutlineClose
+                    onClick={() => handleLoginClose()}
+                    size={20}
+                    className="absolute hover:rotate-180 transition-rotate ease-in-out duration-300 top-4 right-4 cursor-pointer text-white"
+                />
                 <form action="" className="flex-col gap-3 flex">
                     <div className="inputs flex flex-col gap-3">
                         <div className="login max-w-[200px] bg-[#333c4d] rounded-xl flex justify-between items-center p-3 transition-bg duration-500 hover:bg-slate-700">

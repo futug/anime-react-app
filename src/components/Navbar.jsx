@@ -17,6 +17,12 @@ export const Navbar = () => {
         setModalActive(!modalActive);
         console.log(modalActive);
     };
+
+    const [isClicked, setIsClicked] = useState(false);
+    const handleClick = () => {
+        console.log("hello");
+        setIsClicked(!isClicked);
+    };
     return (
         <div className="w-full flex justify-between sticky top-0 z-50">
             <div className="  flex-wrap relative lg:max-w-[1300px] w-full gap-4 bg-[#283142] mx-auto flex justify-between items-center p-3 border-b-2 border-[#a52066] rounded-b-md">
@@ -62,7 +68,12 @@ export const Navbar = () => {
                     </ul>
 
                     {/* search */}
-                    <div className="bg-[#333c4d] rounded-full hidden md:flex justify-between p-2 items-center  transition-bg duration-500 hover:bg-slate-700 w-44">
+                    <div
+                        onClick={() => handleClick()}
+                        className={`bg-[#333c4d] rounded-full hidden md:flex justify-between p-2 items-center  transition-all duration-500 hover:bg-slate-700 ${
+                            isClicked ? "w-[280px]" : "w-44"
+                        }`}
+                    >
                         <input className="bg-transparent focus: outline-none w-full ps-3 text-white" type="text" placeholder="Поиск" />
                         <AiOutlineSearch size={20} />
                     </div>

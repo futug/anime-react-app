@@ -15,27 +15,18 @@ function App() {
     const [isLoading, setIsloading] = useState(false);
 
     useEffect(() => {
-        fetchBase();
+        anotherFetch();
     }, []);
-    async function fetchBase() {
+    async function anotherFetch() {
         setIsloading(true);
         const base = await AnimeBaseService.getAll();
         setSlide(base);
         setIsloading(false);
     }
-
-    async function anotherFetch() {
-        const response = await axios.get("https://api.jikan.moe/v4/top/anime");
-        console.log(response.data.data);
-    }
     return (
         <div className="App px-3">
             <Navbar />
             {isLoading ? <Loader describe={"Загружается..."} /> : <SwiperMain slideItem={slideItem} />}
-            {/* 
-            <button onClick={() => anotherFetch()} className="bg-white text-black text center">
-                get anime
-            </button> */}
         </div>
     );
 }
