@@ -27,22 +27,22 @@ const LoginModal = ({ active, setActive }) => {
                 <form action="" className="flex-col gap-3 flex">
                     <div className="inputs flex flex-col gap-3">
                         <div className="login max-w-[200px] bg-[#333c4d] rounded-xl flex justify-between items-center p-3 transition-bg duration-500 hover:bg-slate-700">
-                            <input type="login" placeholder="Логин" className="bg-transparent focus: outline-none w-full ps-3 text-white" />
+                            <input type="login" placeholder="Login" className="bg-transparent focus: outline-none w-full ps-3 text-white" />
                             <BsFillPersonFill size={20} className="text-[#c7ccd8]" />
                         </div>
                         <div className="password max-w-[200px] bg-[#333c4d] rounded-xl flex justify-between items-center p-3 transition-bg duration-500 hover:bg-slate-700">
-                            <input type="password" placeholder="Пароль" className="bg-transparent focus: outline-none w-full ps-3 text-white" />
+                            <input type="password" placeholder="Password" className="bg-transparent focus: outline-none w-full ps-3 text-white" />
                             <BsFillLockFill size={20} className="text-[#c7ccd8]" />
                         </div>
                     </div>
                     <div className="buttons text-[#c7ccd8] flex justify-between items-center">
-                        <MyButton>Вход</MyButton>
+                        <MyButton>Log-in</MyButton>
                         <a href="#" className="underline">
-                            Забыли?
+                            Forget?
                         </a>
                     </div>
                     <div className="registration text-center">
-                        <MyButton>Регистрация</MyButton>
+                        <MyButton>Registration</MyButton>
                     </div>
                 </form>
             </div>

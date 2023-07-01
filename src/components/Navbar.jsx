@@ -6,6 +6,7 @@ import { MdAnnouncement } from "react-icons/md";
 import { GiNinjaHeroicStance } from "react-icons/gi";
 import { BiSolidLogIn } from "react-icons/bi";
 import LoginModal from "./LoginModal";
+import Search from "./Search";
 
 export const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -18,11 +19,6 @@ export const Navbar = () => {
         console.log(modalActive);
     };
 
-    const [isClicked, setIsClicked] = useState(false);
-    const handleClick = () => {
-        console.log("hello");
-        setIsClicked(!isClicked);
-    };
     return (
         <div className="w-full flex justify-between sticky top-0 z-50">
             <div className="  flex-wrap relative lg:max-w-[1300px] w-full gap-4 bg-[#283142] mx-auto flex justify-between items-center p-3 border-b-2 border-[#a52066] rounded-b-md">
@@ -39,44 +35,36 @@ export const Navbar = () => {
                     >
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <AiFillHome size={20} />
-                            <a href="#">Главная</a>
+                            <a href="#">Home</a>
                         </li>
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <AiFillFolderOpen size={20} />
-                            <a href="#">Аниме</a>
+                            <a href="#">Animes</a>
                         </li>
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <IoMdFlame size={20} />
-                            <a href="#">Новинки</a>
+                            <a href="#">New</a>
                         </li>
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <BsFillBarChartFill size={20} />
-                            <a href="#">Топ-100</a>
+                            <a href="#">Top-25</a>
                         </li>
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <MdAnnouncement size={20} />
-                            <a href="#">Анонсы</a>
+                            <a href="#">Announce</a>
                         </li>
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <AiFillFolderOpen size={20} />
-                            <a href="#">Подборки</a>
+                            <a href="#">Collections</a>
                         </li>
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <GiNinjaHeroicStance size={20} />
-                            <a href="#">Герои</a>
+                            <a href="#">Heroes</a>
                         </li>
                     </ul>
 
                     {/* search */}
-                    <div
-                        onClick={() => handleClick()}
-                        className={`bg-[#333c4d] rounded-full hidden md:flex justify-between p-2 items-center  transition-all duration-500 hover:bg-slate-700 ${
-                            isClicked ? "w-[280px]" : "w-44"
-                        }`}
-                    >
-                        <input className="bg-transparent focus: outline-none w-full ps-3 text-white" type="text" placeholder="Поиск" />
-                        <AiOutlineSearch size={20} />
-                    </div>
+                    <Search search={"Search"} />
                     {/* log-in */}
                     <div className="text-[#c7ccd8] duration-75 transition-all ease-in-out hover:text-slate-100 cursor-pointer flex items-center">
                         <BiSolidLogIn onClick={() => handleLoginModal()} size={30} />

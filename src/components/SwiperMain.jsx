@@ -11,18 +11,21 @@ const SwiperMain = (props) => {
     const swiperNavNext = useRef(null);
     return (
         <div className="max-w-[1300px] p-3 pt-12 pb-8 mt-11 rounded-md mx-auto bg-[#283142] relative">
-            <div className="flex gap-2 justify-end mb-3">
-                <div
-                    ref={swiperNavPre}
-                    className="bg-[#171c2c] h-8 w-[60px] rounded-l-xl flex items-center justify-center text-white hover:hover:bg-[#a52066] transition-all ease-in-out duration-300 cursor-pointer"
-                >
-                    <BiSolidLeftArrow />
-                </div>
-                <div
-                    ref={swiperNavNext}
-                    className="bg-[#171c2c] h-8 w-[60px] rounded-r-xl flex items-center justify-center text-white hover:hover:bg-[#a52066] transition-all ease-in-out duration-300 cursor-pointer"
-                >
-                    <BiSolidRightArrow />
+            <div className="flex gap-2 justify-between mb-3 items-center">
+                <p className="text-white text-2xl font-bold tracking-wide">Top-25</p>
+                <div className="flex gap-2 justify-end">
+                    <div
+                        ref={swiperNavPre}
+                        className="bg-[#171c2c] h-8 w-[60px] rounded-l-xl flex items-center justify-center text-white hover:hover:bg-[#a52066] transition-all ease-in-out duration-300 cursor-pointer"
+                    >
+                        <BiSolidLeftArrow />
+                    </div>
+                    <div
+                        ref={swiperNavNext}
+                        className="bg-[#171c2c] h-8 w-[60px] rounded-r-xl flex items-center justify-center text-white hover:hover:bg-[#a52066] transition-all ease-in-out duration-300 cursor-pointer"
+                    >
+                        <BiSolidRightArrow />
+                    </div>
                 </div>
             </div>
             <Swiper

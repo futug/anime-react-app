@@ -9,6 +9,7 @@ import SwiperMain from "./components/SwiperMain";
 import AnimeBaseService from "./API/AnimeBaseService";
 import Loader from "./components/Loader";
 import axios from "axios";
+import Genres from "./components/Genres";
 
 function App() {
     const [slideItem, setSlide] = useState([]);
@@ -20,13 +21,15 @@ function App() {
     async function anotherFetch() {
         setIsloading(true);
         const base = await AnimeBaseService.getAll();
+        console.log(base);
         setSlide(base);
         setIsloading(false);
     }
     return (
-        <div className="App px-3">
+        <div className="App px-3 max-w-[1300px] mx-auto">
             <Navbar />
             {isLoading ? <Loader describe={"Загружается..."} /> : <SwiperMain slideItem={slideItem} />}
+            <Genres />
         </div>
     );
 }
