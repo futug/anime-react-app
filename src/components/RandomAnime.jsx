@@ -10,7 +10,6 @@ const RandomAnime = (props) => {
         setTimeout(() => {
             setShowImage(true);
             setGenres(props.randomAnime.genres);
-            console.log(genres);
         }, 1000);
 
         props.isLoading(false);
@@ -18,7 +17,7 @@ const RandomAnime = (props) => {
 
     return (
         <div>
-            <div className="random-anime-wrapper w-full lg:w-[25%] xl:w-[25%] bg-[#283142] mt-5 border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
+            <div className="random-anime-wrapper w-full  bg-[#283142] mt-5 border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
                 <div className="random-anime__title flex  gap-2 items-center">
                     <GiPerspectiveDiceSixFacesRandom size={20} />
                     <p className="font-semibold text-lg">Random title for you</p>
@@ -50,15 +49,17 @@ const RandomAnime = (props) => {
                                 <span>{props.randomAnime.status}</span>
                             </p>
 
-                            <div className="flex gap-2 mt-3">
-                                {genres.map((item, index) => {
-                                    return (
-                                        <p className="bg-[#a52066] font-bold text-xs p-1 px-2" key={index}>
-                                            {item.name}
-                                        </p>
-                                    );
-                                })}
-                            </div>
+                            {genres === undefined ? null : (
+                                <div className="flex gap-2 mt-3">
+                                    {genres.map((item, index) => {
+                                        return (
+                                            <p className="bg-[#a52066] font-bold text-xs p-1 px-2" key={index}>
+                                                {item.name}
+                                            </p>
+                                        );
+                                    })}
+                                </div>
+                            )}
                         </div>
                         {/* <p>{props.randomAnime.genres}</p> */}
                     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import MyButton from "./MyButton";
 import { BsFillLockFill, BsFillPersonFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const LoginModal = ({ active, setActive }) => {
     const handleLoginClose = (e) => {
@@ -41,8 +42,13 @@ const LoginModal = ({ active, setActive }) => {
                             Forget?
                         </a>
                     </div>
-                    <div className="registration text-center">
-                        <MyButton>Registration</MyButton>
+                    <div
+                        onClick={handleLoginClose}
+                        className="registration  bg-[#171c2c] text-[#c7ccd8] py-2 px-4 rounded-3xl hover:bg-[#1c2336] cursor-pointer pointer-none hover:text-[#c7ccd8] font-semibold transition-all ease-in-out duration-200 text-center "
+                    >
+                        <Link className="w-full h-full" to="/Registration">
+                            Registration
+                        </Link>
                     </div>
                 </form>
             </div>

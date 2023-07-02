@@ -14,7 +14,7 @@ const Genres = (props) => {
     };
 
     return (
-        <div className="w-full lg:w-[25%] xl:w-[25%] bg-[#283142] mt-5 border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
+        <div className="w-full  bg-[#283142] border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
             <div className="flex justify-between lg:justify-center xl:lg:justify-center gap-5 flex-wrap">
                 <div className="genres__title flex  gap-2 items-center">
                     <AiOutlineMenu size={20} />

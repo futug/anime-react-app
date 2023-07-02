@@ -7,6 +7,7 @@ import { GiNinjaHeroicStance } from "react-icons/gi";
 import { BiSolidLogIn } from "react-icons/bi";
 import LoginModal from "./LoginModal";
 import Search from "./Search";
+import { Link } from "react-router-dom";
 
 export const Navbar = (props) => {
     const [open, setOpen] = useState(false);
@@ -47,8 +48,9 @@ export const Navbar = (props) => {
                         </li>
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <BsFillBarChartFill size={20} />
-                            <a href="#">Top-25</a>
+                            <Link to="/Top100">Top-100</Link>
                         </li>
+
                         <li className="flex gap-2 items-center cursor-pointer transition-all duration-300 hover:text-[#a52066]">
                             <MdAnnouncement size={20} />
                             <a href="#">Announce</a>
