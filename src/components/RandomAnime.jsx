@@ -29,13 +29,19 @@ const RandomAnime = (props) => {
                                 {props.randomAnime ? props.randomAnime.title_english || props.randomAnime.title : null}
                             </h2>
                             <div className="relative mt-3">
-                                {showImage && (
-                                    <picture>
-                                        <source srcSet={props.randomAnime.images.webp.large_image_url} type="image/webp" />
-                                        <source srcSet={props.randomAnime.images.jpg.large_image_url} type="image/jpeg" />
-                                        <img className="w-[300px]" src={props.randomAnime.images.jpg.large_image_url} alt="random anime" />
-                                    </picture>
-                                )}
+                                <div className="overflow-hidden">
+                                    {showImage && (
+                                        <picture>
+                                            <source srcSet={props.randomAnime.images.webp.large_image_url} type="image/webp" />
+                                            <source srcSet={props.randomAnime.images.jpg.large_image_url} type="image/jpeg" />
+                                            <img
+                                                className="w-[300px] hover:scale-125 hover:rotate-12 transition-all ease-in-out duration-1000"
+                                                src={props.randomAnime.images.jpg.large_image_url}
+                                                alt="random anime"
+                                            />
+                                        </picture>
+                                    )}
+                                </div>
 
                                 <p className="absolute top-5 text-lg font-bold bg-[#1aac44] p-2">{props.randomAnime.score}</p>
                             </div>
@@ -50,10 +56,10 @@ const RandomAnime = (props) => {
                             </p>
 
                             {genres === undefined ? null : (
-                                <div className="flex gap-2 mt-3">
+                                <div className="flex gap-2 mt-3 flex-wrap">
                                     {genres.map((item, index) => {
                                         return (
-                                            <p className="bg-[#a52066] font-bold text-xs p-1 px-2" key={index}>
+                                            <p className="bg-[#a52066]  font-bold text-xs p-1 px-2" key={index}>
                                                 {item.name}
                                             </p>
                                         );

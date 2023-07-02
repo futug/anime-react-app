@@ -5,6 +5,7 @@ import "swiper/css";
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import { BiSolidLeftArrow, BiSolidRightArrow } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const SwiperMain = (props) => {
     const swiperNavPre = useRef(null);
@@ -66,7 +67,9 @@ const SwiperMain = (props) => {
             >
                 {props.slideItem.map((item, index) => (
                     <SwiperSlide key={index}>
-                        <TitleSlider slide={item} />
+                        <Link to={`/top25/${item.mal_id}`}>
+                            <TitleSlider slide={item} />
+                        </Link>
                     </SwiperSlide>
                 ))}
             </Swiper>

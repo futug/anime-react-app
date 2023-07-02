@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import MyButton from "../components/MyButton";
+import { Link } from "react-router-dom";
 
 const Top100 = (props) => {
     const [topVisible, setTopVisible] = useState(9);
@@ -16,7 +17,7 @@ const Top100 = (props) => {
                 {/* card */}
                 {props.topHundred.slice(0, topVisible).map((item) => {
                     return (
-                        <a href="#" key={item.mal_id}>
+                        <Link to={`/Top100/${item.mal_id.split("-")[0]}`} key={item.mal_id}>
                             <div className="top100__item-card">
                                 <div className="top100__item-card-top relative overflow-hidden max-w-[250px] rounded-t-xl bg-[#283142]">
                                     <picture>
@@ -27,14 +28,14 @@ const Top100 = (props) => {
                                     <div className="absolute w-full h-full top-0 left-0 flex justify-center items-center transition-all ease-in-out duration-300 opacity-0 hover:opacity-100 text-orange-500 hover:bg-[rgba(0,0,0,0.5)]">
                                         <AiOutlinePlayCircle className="hover:text-white transition-all ease-in-out duration-300" size={100} />
                                     </div>
-                                    <span className="absolute invisible top-0">{item.mal_id}</span>
+                                    <span className="absolute invisible top-0">{item.mal_id.split("-")[0]}</span>
                                 </div>
                                 <div className="max-w-[250px] h-[120px] flex flex-col justify-center gap-3 rounded-b-xl bg-[#283142] p-2">
                                     <p className="text-md font-semibold tracking-wide">{item.entry[0].title}</p>
                                     <p>[{item.date.split("T")[0]}]</p>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     );
                 })}
                 {/* card */}

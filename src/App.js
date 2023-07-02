@@ -12,9 +12,8 @@ import Genres from "./components/Genres";
 import GenreBaseService from "./API/GenreBaseService";
 import axios from "axios";
 import RandomAnime from "./components/RandomAnime";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Top100 from "./pages/Top100";
-import { Registration } from "./pages/Registration";
+import { BrowserRouter } from "react-router-dom";
+import { AppRouter } from "./components/AppRouter";
 
 function App() {
     const [slideItem, setSlide] = useState([]);
@@ -28,6 +27,7 @@ function App() {
         getAllGenres();
         getHundredAnimes();
         getRandomAnime();
+        getEpisodes();
     }, []);
 
     async function getRandomAnime() {
@@ -54,6 +54,11 @@ function App() {
         setIsloading(false);
     }
 
+    async function getEpisodes() {
+        const episodesBase = await axios.get("https://api.jikan.moe/v4/anime/16498/videos/episodes");
+        console.log(episodesBase.data.data);
+    }
+
     return (
         <BrowserRouter>
             <div className="App px-3 max-w-[1300px] mx-auto">
@@ -68,10 +73,7 @@ function App() {
                                 <Genres genres={genres} />
                                 <RandomAnime randomAnime={randomAnime} isLoading={setIsloading} />
                             </div>
-                            <Routes>
-                                <Route path="/Top100" element={<Top100 topHundred={topHundred} />} />
-                                <Route path="/Registration" element={<Registration />} />
-                            </Routes>
+                            <AppRouter topHundred={topHundred} />
                         </div>
                     </>
                 )}
