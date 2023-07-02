@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const RandomAnime = (props) => {
     const [showImage, setShowImage] = useState(false);
@@ -22,7 +23,7 @@ const RandomAnime = (props) => {
                     <GiPerspectiveDiceSixFacesRandom size={20} />
                     <p className="font-semibold text-lg">Random title for you</p>
                 </div>
-                <a href="#">
+                <Link to={`/Random/${props.randomAnime.mal_id}`}>
                     <div className="random-anime__card h-full flex flex-col items-center lg:items-start xl:items-start gap-2 mt-3">
                         <div>
                             <h2 className="random-anime__card-title font-semibold">
@@ -69,7 +70,7 @@ const RandomAnime = (props) => {
                         </div>
                         {/* <p>{props.randomAnime.genres}</p> */}
                     </div>
-                </a>
+                </Link>
             </div>
         </div>
     );

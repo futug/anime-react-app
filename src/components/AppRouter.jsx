@@ -11,6 +11,7 @@ export const AppRouter = ({ props, topHundred }) => {
             <Route path="/Top100" element={<Top100 topHundred={topHundred} />} />
             <Route path="/Top25/:mal_id" element={<AnimeByIdPage />} />
             <Route path="/Top100/:mal_id" element={<AnimeByIdPage />} />
+            <Route path="/Random/:mal_id" element={<AnimeByIdPage />} />
             <Route path="/Registration" element={<Registration />} />
             <Route path="*" element={<ErrorPage />} />
         </Routes>

@@ -68,7 +68,7 @@ function App() {
                     <>
                         <Navbar />
                         <SwiperMain slideItem={slideItem} />
-                        <div className="block xl:grid lg:grid grid-cols-[25%,75%]  mt-5">
+                        <div className="block xl:grid lg:grid grid-cols-[25%,75%] mt-5">
                             <div>
                                 <Genres genres={genres} />
                                 <RandomAnime randomAnime={randomAnime} isLoading={setIsloading} />
