@@ -1,24 +1,66 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-export const AnimeByIdPage = (mal_id) => {
+import MyButton from "../components/MyButton";
+
+export const AnimeByIdPage = ({ props, mal_id }) => {
     const params = useParams();
-    const [postBase, setPostBase] = useState([]);
+    const [postBase, setPostBase] = useState({
+        isLoading: false,
+        data: null,
+        error: false,
+    });
 
     async function getById() {
-        const byIdBase = await axios.get(`https://api.jikan.moe/v4/anime/${params.mal_id}/full`);
-        setPostBase(byIdBase.data.data);
-        console.log(byIdBase.data.data);
+        setPostBase((current) => ({
+            ...current,
+            isLoading: true,
+        }));
+
+        try {
+            const byIdBase = await axios.get(`https://api.jikan.moe/v4/anime/${params.mal_id}/full`);
+            setPostBase({
+                isLoading: false,
+                data: byIdBase.data.data,
+                error: false,
+            });
+        } catch (error) {
+            setPostBase((current) => ({
+                isLoading: false,
+                data: current.data,
+                error: true,
+            }));
+        }
     }
 
     useEffect(() => {
+        console.log(postBase);
         getById();
     }, [params]);
+
+    if (postBase.isLoading) {
+        return <h1>Loading...</h1>;
+    }
+
+    if (postBase.error) {
+        return (
+            <>
+                <h1>Sorry, something went wrong</h1>
+                <button onClick={getById}>try again</button>
+            </>
+        );
+    }
+
+    if (postBase.data === null || postBase.data === undefined) {
+        return null;
+    }
+
     return (
         <div className="text-[#c7ccd8] px-3">
             <div className="anime-page__title-group w-full  bg-[#283142] border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
                 <h1 className="anime-page__title font-semibold text-center text-lg">
-                    {postBase.title_english} / <span>{postBase.title_japanese}</span> [Episodes - <span>{postBase.episodes}</span>] <span>{postBase.year}</span>
+                    {postBase.title_english} / <span>{postBase.title_japanese}</span> [ Episodes - <span>{postBase.episodes}</span>]{" "}
+                    <span>{postBase.year}</span>
                 </h1>
             </div>
             <div className="anime-page__info-body mt-5 flex gap-3">
@@ -51,7 +93,7 @@ export const AnimeByIdPage = (mal_id) => {
                                 })}
                             </div>
                             <p>{postBase.source}</p>
-                            <p>{postBase.aired.from.slice("T")[0]}</p>
+                            <p>{postBase.aired.from.split("T")[0]}</p>
                             <p>{postBase.studios[0].name}</p>
                             <p>{postBase.rating}</p>
                             <p>{postBase.duration}</p>
