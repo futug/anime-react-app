@@ -1,933 +1,393 @@
 {
+    "pagination": { "last_visible_page": 1, "has_next_page": false },
     "data": [
         {
-            "id": "clfrxgx7r06bwkslufe1bb1qh",
-            "slug": "one-piece",
-            "anilistId": 21,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-wf37VakJmZqs.jpg",
-            "status": "RELEASING",
-            "season": "FALL",
-            "title": { "native": "ONE PIECE", "romaji": "ONE PIECE", "english": "ONE PIECE", "userPreferred": "ONE PIECE" },
-            "mappings": {
-                "mal": 21,
-                "anidb": 69,
-                "kitsu": 12,
-                "anilist": 21,
-                "thetvdb": 81797,
-                "anisearch": 2227,
-                "livechart": 321,
-                "notify.moe": "jdZp5KmiR",
-                "anime-planet": "one-piece"
+            "entry": {
+                "mal_id": 33487,
+                "url": "https://myanimelist.net/anime/33487/Masamune-kun_no_Revenge",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/12/83709.jpg",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/83709t.jpg",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/83709l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/12/83709.webp",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/83709t.webp",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/83709l.webp"
+                    }
+                },
+                "title": "Masamune-kun no Revenge"
             },
-            "currentEpisode": 1067,
-            "next": "2023-07-09T00:30:00.000Z",
-            "synonyms": [
-                "ワンピース",
-                "海贼王",
-                "וואן פיס",
-                "ون بيس",
-                "วันพีซ",
-                "Vua Hải Tặc",
-                "All'arrembaggio!",
-                "Tutti all'arrembaggio!",
-                "Ντρέηκ, το Κυνήγι του Θησαυρού"
+            "episodes": [
+                { "mal_id": 24, "url": "https://myanimelist.net/anime/33487/Masamune-kun_no_Revenge/episode/24", "title": "Episode 24", "premium": true },
+                { "mal_id": 23, "url": "https://myanimelist.net/anime/33487/Masamune-kun_no_Revenge/episode/23", "title": "Episode 23", "premium": true }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-07-02T03:01:49.577Z",
-            "seasonInt": 994,
-            "description": "Gold Roger was known as the Pirate King, the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the location of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece (which promises an unlimited amount of riches and fame), and quite possibly the most coveted of titles for the person who found it, the title of the Pirate King.<br><br>\nEnter Monkey D. Luffy, a 17-year-old boy that defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate who ransacks villages for fun, Luffy’s reason for being a pirate is one of pure wonder; the thought of an exciting adventure and meeting new and intriguing people, along with finding One Piece, are his reasons of becoming a pirate. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach One Piece.<br><br>\n<b>*This includes following special episodes:</b><br>\n- Chopperman to the Rescue! Protect the TV Station by the Shore! (Episode 336)<br>\n- The Strongest Tag-Team! Luffy and Toriko's Hard Struggle! (Episode 492)<br>\n- Team Formation! Save Chopper (Episode 542)<br>\n- History's Strongest Collaboration vs. Glutton of the Sea (Episode 590)<br>\n- 20th Anniversary! Special Romance Dawn (Episode 907)",
-            "duration": 24,
-            "averageScore": 87,
-            "popularity": 438404,
-            "color": "#e4a15d",
-            "year": 1999,
-            "createdAt": "2023-03-28T07:19:44.681Z",
-            "updatedAt": "2023-07-02T14:40:36.590Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1688267139563, "clfrxh9le1sluluks7p0eduer": 1688267141929 },
-            "genre": ["Drama", "Comedy", "Action", "Fantasy", "Adventure"]
+            "region_locked": false
         },
         {
-            "id": "clfrutwmn0069jsludk3hbdpy",
-            "slug": "hell's-paradise",
-            "anilistId": 128893,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128893-l0R0GFHplDKW.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/128893-pAA7PjY8l7dy.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": { "native": "地獄楽", "romaji": "Jigokuraku", "english": "Hell’s Paradise", "userPreferred": "Jigokuraku" },
-            "mappings": {
-                "mal": 46569,
-                "anidb": 16012,
-                "kitsu": 44012,
-                "anilist": 128893,
-                "thetvdb": 402474,
-                "anisearch": 15915,
-                "livechart": 10371,
-                "notify.moe": "QfXNNCfGR",
-                "anime-planet": "hells-paradise-jigokuraku"
+            "entry": {
+                "mal_id": 54959,
+                "url": "https://myanimelist.net/anime/54959/BanG_Dream_Its_MyGO",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/1156/136693.jpg",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/1156/136693t.jpg",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/1156/136693l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/1156/136693.webp",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/1156/136693t.webp",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/1156/136693l.webp"
+                    }
+                },
+                "title": "BanG Dream! It's MyGO!!!!!"
             },
-            "currentEpisode": 13,
-            "next": null,
-            "synonyms": ["Hell’s Paradise: Jigokuraku", "สุขาวดีอเวจี", "Адский рай"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-07-01T16:02:20.121Z",
-            "seasonInt": 232,
-            "description": "The Edo period is nearing its end. Gabimaru, a shinobi formerly known as the strongest in Iwagakure who is now a death row convict, is told that he will be acquitted and set free if he can bring back the Elixir of Life from an island that is rumored to be the Buddhist pure land Sukhavati. In hopes of reuniting with his beloved wife, Gabimaru heads to the island along with the executioner Yamada Asaemon Sagiri. Upon arriving there, they encounter other death row convicts in search of the Elixir of Life... as well as a host of unknown creatures, eerie manmade statues, and the hermits who rule the island. Can Gabimaru find the Elixir of Life on this mysterious island and make it back home alive?<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 80,
-            "popularity": 136692,
-            "color": "#e4bb35",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:51.601Z",
-            "updatedAt": "2023-07-02T14:00:01.255Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1688227337767, "clfrxh9le1sluluks7p0eduer": 1688227339204 },
-            "genre": ["Action", "Supernatural", "Adventure", "Mystery"]
-        },
-        {
-            "id": "clfrut730002wjslufntl9d76",
-            "slug": "oshi-no-ko",
-            "anilistId": 150672,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150672-2WWJVXIAOG11.png",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/150672-ISwoA0eS722H.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": { "native": "【推しの子】", "romaji": "[Oshi no Ko]", "english": "Oshi No Ko", "userPreferred": "[Oshi no Ko]" },
-            "mappings": {
-                "mal": 52034,
-                "anidb": 17449,
-                "kitsu": 46170,
-                "anilist": 150672,
-                "thetvdb": 421069,
-                "anisearch": 17452,
-                "livechart": 11247,
-                "notify.moe": "JBDkzdj7R",
-                "anime-planet": "oshi-no-ko"
-            },
-            "currentEpisode": 11,
-            "next": null,
-            "synonyms": [
-                "Favorite Girl",
-                "My Idol's Child",
-                "[Mein*Star]",
-                "เกิดใหม่เป็นลูกโอชิ",
-                "Anak Idola",
-                "【OSHI NO KO】",
-                "【推しの子】Mother and Children",
-                "[Oshi no Ko] Mother and Children",
-                "【MOJA GWIAZDA】",
-                "我推的孩子",
-                "【최애의 아이】"
+            "episodes": [
+                { "mal_id": 3, "url": "https://myanimelist.net/anime/54959/BanG_Dream_Its_MyGO/episode/3", "title": "Episode 3", "premium": true },
+                { "mal_id": 2, "url": "https://myanimelist.net/anime/54959/BanG_Dream_Its_MyGO/episode/2", "title": "Episode 2", "premium": true }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-28T15:42:17.117Z",
-            "seasonInt": 232,
-            "description": "When a pregnant young starlet appears in Gorou Amemiya’s countryside medical clinic, the doctor takes it upon himself to safely (and secretly) deliver Ai Hoshino’s child so she can make a scandal-free return to the stage. But no good deed goes unpunished, and on the eve of her delivery, he finds himself slain at the hands of Ai’s deluded stalker — and subsequently reborn as Ai’s child, Aquamarine Hoshino! The glitz and glamor of showbiz hide the dark underbelly of the entertainment industry, threatening to dull the shine of his favorite star. Can he help his new mother rise to the top of the charts? And what will he do when unthinkable disaster strikes? <br>\n<br>\n(Source: HIDIVE)\n<br><br>\n\n<i>Note: Episode 1<b>【推しの子】Mother and Children</b> was pre-screened in advance in Japanese theaters on March 17, 2023. The regular TV broadcast began on April 12, 2023. The first episode has an extended runtime of ~82 minutes.</i>",
-            "duration": 24,
-            "averageScore": 87,
-            "popularity": 131919,
-            "color": "#ff35c9",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:18.494Z",
-            "updatedAt": "2023-07-02T14:00:01.246Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1687967120541,
-                "clfrxh9le1sluluks7p0eduer": 1687967122150,
-                "clgr24zmt0000pk01851e2uem": 1682113622380
-            },
-            "genre": ["Drama", "Psychological", "Supernatural", "Mystery"]
+            "region_locked": false
         },
         {
-            "id": "clfrusjw60001jslu1sgpbnae",
-            "slug": "mashle:-magic-and-muscles",
-            "anilistId": 151801,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151801-wYg28dEaJAw3.png",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151801-zBFaJMIJFWfS.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": { "native": "マッシュル-MASHLE-", "romaji": "MASHLE", "english": "MASHLE: MAGIC AND MUSCLES", "userPreferred": "MASHLE" },
-            "mappings": {
-                "mal": 52211,
-                "anidb": 17478,
-                "kitsu": 46229,
-                "anilist": 151801,
-                "thetvdb": 421737,
-                "anisearch": 17495,
-                "livechart": 11318,
-                "notify.moe": "d8eLQVV4R",
-                "anime-planet": "mashle-magic-and-muscles"
+            "entry": {
+                "mal_id": 10801,
+                "url": "https://myanimelist.net/anime/10801/Copihan",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/10/75584.jpg",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/75584t.jpg",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/75584l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/10/75584.webp",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/75584t.webp",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/75584l.webp"
+                    }
+                },
+                "title": "Copihan"
             },
-            "currentEpisode": 11,
-            "next": "2023-06-30T15:00:00.000Z",
-            "synonyms": ["MASHLE ศึกโลกเวทมนตร์คนพลังกล้าม", "MASHLE: MAGIA E MÚSCULOS", "MASHLE: Магия и мускулы"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-23T17:05:06.968Z",
-            "seasonInt": 232,
-            "description": "This is a world of magic. This is a world in which magic is casually used by everyone.<br><br>\nIn a deep, dark forest in this world of magic, there is a boy who is singlemindedly working out. His name is Mash Burnedead, and he has a secret. He can’t use magic. <br><br>\nAll he wanted was to live a quiet life with his family, but people suddenly start trying to kill him one day and he somehow finds himself enrolled in Magic School. There, he sets his sights on becoming a “Divine Visionary,” the elite of the elite. <br><br> Will his ripped muscles work against the best and brightest of the wizarding world? The curtain rises on this off-kilter magical fantasy in which the power of being jacked crushes any spell!<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 74,
-            "popularity": 87881,
-            "color": "#f1bb5d",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:04:48.442Z",
-            "updatedAt": "2023-07-02T14:00:01.043Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1687539904147,
-                "clfrxh9le1sluluks7p0eduer": 1687539906039,
-                "clgr24zmt0000pk01851e2uem": 1682113568662
-            },
-            "genre": ["Comedy", "Action", "Fantasy"]
-        },
-        {
-            "id": "clfrutidt0049jsluax6438lc",
-            "slug": "tengoku-daimakyo",
-            "anilistId": 155783,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155783-X23WQwPmI9Sh.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/155783-MXHfdquIBoHA.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": { "native": "天国大魔境", "romaji": "Tengoku Daimakyou", "english": "Tengoku Daimakyo", "userPreferred": "Tengoku Daimakyou" },
-            "mappings": {
-                "mal": 53393,
-                "anidb": 17671,
-                "kitsu": 46641,
-                "anilist": 155783,
-                "thetvdb": 426165,
-                "anisearch": 17785,
-                "livechart": 11562,
-                "notify.moe": "oD4QdQN4g",
-                "anime-planet": "heavenly-delusion"
-            },
-            "currentEpisode": 13,
-            "next": null,
-            "synonyms": ["Tengoku-Daimakyo: Ilusão Celestial", "Heavenly Delusion", "ถ้ำปีศาจแดนสวรรค์"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-25T01:42:09.840Z",
-            "seasonInt": 232,
-            "description": "In the year 2024, the world has collapsed. Grotesque monsters lurk amongst the ruins of Japan, while remaining people scrape together what they can to survive. Kiruko, an odd-job girl in Nakano, accepts a mysterious woman's dying wish to take a boy named Maru to a place called Heaven.<br>\n<br>\n(Source: Disney+, edited)",
-            "duration": 24,
-            "averageScore": 80,
-            "popularity": 79944,
-            "color": "#286bae",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:33.138Z",
-            "updatedAt": "2023-07-02T14:00:01.181Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687657520299, "clfrxh9le1sluluks7p0eduer": 1687657522015 },
-            "genre": ["Sci-Fi", "Adventure", "Mystery", "Thriller"]
-        },
-        {
-            "id": "clfrusvdk0014jslu0n3fh7ki",
-            "slug": "my-love-story-with-yamada-kun-at-lv999",
-            "anilistId": 154965,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154965-vZbBRjtmLp7S.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154965-9AwJG3nVokqG.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "山田くんとLv999の恋をする",
-                "romaji": "Yamada-kun to Lv999 no Koi wo Suru",
-                "english": "My Love Story with Yamada-kun at Lv999",
-                "userPreferred": "Yamada-kun to Lv999 no Koi wo Suru"
-            },
-            "mappings": {
-                "mal": 53126,
-                "anidb": 17637,
-                "kitsu": 46529,
-                "anilist": 154965,
-                "thetvdb": 423413,
-                "anisearch": 17739,
-                "livechart": 11373,
-                "notify.moe": "Kr-S_VVVg",
-                "anime-planet": "my-love-story-with-yamada-kun-at-lv999"
-            },
-            "currentEpisode": 13,
-            "next": null,
-            "synonyms": [
-                "Loving Yamada at LV999!",
-                "My Lv999 Love for Yamada-kun",
-                "Minha História de Amor com Yamada-kun Nível 999",
-                "รักสุดฟินเลเวล 999 กับยามาดะคุง ",
-                "和山田进行LV.999的恋爱",
-                "Моя любовь к Ямаде 999 уровня"
+            "episodes": [
+                { "mal_id": 8, "url": "https://myanimelist.net/anime/10801/Copihan/episode/8", "title": "Episode 8", "premium": true },
+                { "mal_id": 7, "url": "https://myanimelist.net/anime/10801/Copihan/episode/7", "title": "Episode 7", "premium": true }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-24T17:42:25.590Z",
-            "seasonInt": 232,
-            "description": "Akane Kinoshita, a female college student, faces the absolute worst situation when she ends up breaking up with her boyfriend after he has an affair with a woman he met playing an online game. While relieving her stress by rampaging through the open hunting grounds of an online game, Akane spills everything about her heartbreak to “Yamada”, a player she met by chance who happens to be in the same guild. “I don't care,” is his curt reply. But when Akane gets a makeover and joins an offline event to get back at her ex-boyfriend, she hears those dreadful words again. And that was Akane's fateful encounter with “Yamada”─！<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 76,
-            "popularity": 72736,
-            "color": "#e4935d",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:03.328Z",
-            "updatedAt": "2023-07-02T14:00:01.249Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687628727156, "clfrxh9le1sluluks7p0eduer": 1687628729107 },
-            "genre": ["Drama", "Comedy", "Romance"]
+            "region_locked": false
         },
         {
-            "id": "clfrusg3g0000jslu7t37439o",
-            "slug": "the-misfit-of-demon-king-academy-:-history's-strongest-demon-king-reincarnates-and-goes-to-school-with-his-descendants",
-            "anilistId": 130588,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130588-zYz8Gp2kZfTm.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/130588-TVZlsARgfLfm.jpg",
-            "status": "RELEASING",
-            "season": "WINTER",
-            "title": {
-                "native": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～ Ⅱ",
-                "romaji": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II",
-                "english": "The Misfit of Demon King Academy Ⅱ: History's Strongest Demon King Reincarnates and Goes to School with His Descendants",
-                "userPreferred": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II"
+            "entry": {
+                "mal_id": 52214,
+                "url": "https://myanimelist.net/anime/52214/Genjitsu_no_Yohane__Sunshine_in_the_Mirror",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/1208/133335.jpg",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/1208/133335t.jpg",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/1208/133335l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/1208/133335.webp",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/1208/133335t.webp",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/1208/133335l.webp"
+                    }
+                },
+                "title": "Genjitsu no Yohane: Sunshine in the Mirror"
             },
-            "mappings": {
-                "mal": 48417,
-                "anidb": 16101,
-                "kitsu": 44125,
-                "anilist": 130588,
-                "thetvdb": 375927,
-                "anisearch": 16022,
-                "livechart": 10448,
-                "notify.moe": "ASRdoV8Gg",
-                "anime-planet": "the-misfit-of-demon-king-academy-2"
-            },
-            "currentEpisode": 6,
-            "next": "2023-08-19T15:30:00.000Z",
-            "synonyms": [
-                "The Misfit of Demon King Academy II",
-                "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants Season 2",
-                "ใครว่าข้าไม่เหมาะเป็นจอมมาร: ต้นตระกูลจอมมารที่เเกร่งที่สุดในประวัติศาสตร์เกิดใหม่ไปเรียนที่โรงเรียนลูกหลาน ภาค 2"
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/52214/Genjitsu_no_Yohane__Sunshine_in_the_Mirror/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-12T09:22:49.116Z",
-            "seasonInt": 231,
-            "description": "As peace returns to the demon realm, Anos Voldigoad wishes nothing more than to put his reputation as the Demon King of Tyranny to rest and go back to being a misfit at the prestigious Demon King Academy. Unfortunately, any tranquility is fleeting: sinister demons, kings, and deities plot Anos's demise from the shadows.\n<br><br>\nRumors spread about the \"Child of God,\" a being whose power may rival that of Anos. To uncover the truth and eliminate the potential threat, Anos must journey deep into the land of spirits. However, the spirit world is shrouded in mystery, and it may only be entered after undergoing a series of difficult trials.\n<br><br>\nWith unrivaled power and confidence, Anos braces himself to defeat various formidable enemies with grandiose titles. But he—with the assistance of his trusted allies—will barely have to break a sweat as the true Demon King of Tyranny.\n<br><br>\n(Source: MAL Rewrite)",
-            "duration": 24,
-            "averageScore": 70,
-            "popularity": 72368,
-            "color": "#e45dc9",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:04:43.524Z",
-            "updatedAt": "2023-07-02T14:40:36.367Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1686561949986,
-                "clfrxh9le1sluluks7p0eduer": 1686561951808,
-                "clgr24zmt0000pk01851e2uem": 1682113588816
-            },
-            "genre": ["Action", "Fantasy"]
+            "region_locked": false
         },
         {
-            "id": "clfruthr40046jslu8njh0fla",
-            "slug": "nier:automata-ver1.1a",
-            "anilistId": 145665,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx145665-kiAZX3DsbBnl.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/145665-pbXoaav2n51N.jpg",
-            "status": "RELEASING",
-            "season": "WINTER",
-            "title": {
-                "native": "NieR:Automata Ver1.1a",
-                "romaji": "NieR:Automata Ver1.1a",
-                "english": "NieR:Automata Ver1.1a",
-                "userPreferred": "NieR:Automata Ver1.1a"
+            "entry": {
+                "mal_id": 1559,
+                "url": "https://myanimelist.net/anime/1559/Shijou_Saikyou_no_Deshi_Kenichi",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Shijou Saikyou no Deshi Kenichi"
             },
-            "mappings": {
-                "mal": 51105,
-                "anidb": 17214,
-                "kitsu": 45926,
-                "anilist": 145665,
-                "thetvdb": 416998,
-                "anisearch": 17160,
-                "livechart": 11087,
-                "notify.moe": "FJLlKRY7g",
-                "anime-planet": "nier-automata-ver-11a"
-            },
-            "currentEpisode": 8,
-            "next": "2023-07-23T10:00:00.000Z",
-            "synonyms": ["ニーア オートマタ", "NieR Automata Ver1.1a"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-23T09:23:11.639Z",
-            "seasonInt": 231,
-            "description": "The distant future, 5012.<br>\nThe sudden aerial invasion of Earth by ＜Aliens＞ and\ntheir creations ＜Machine Lifeforms＞led mankind to the brink of extinction.\nThe surviving number of humans who took refuge on the moon to organize a counterattack using\n＜android＞ soldiers to recapture Earth.<br><br>\n\nHowever, the war reaches a stalemate as the ＜Machine Lifeforms＞ continue to multiply infinitely.\nIn turn, humanity deploys anew unit of android soldiers as an ultimate weapon: ＜YoRHa＞<br><br>\nNewly dispatched to Earth ＜2B＞ joins＜9S＞, the analyst currently stationed there, where amid their mission, they encounter a myriad of mysterious phenomena... <br><br>\n\nThis is the story of these lifeless ＜androids＞ and their endless fight for the sake of mankind.\n <br><br>\n(Source: NieR:Automata Ver1.1a Official USA Website)<br><br>\n<i>Note: Episodes 9, 10, 11, 12 aired back-to-back on July 23, 2023.</i>",
-            "duration": 24,
-            "averageScore": 70,
-            "popularity": 66917,
-            "color": null,
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:32.321Z",
-            "updatedAt": "2023-07-02T14:40:36.608Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1687512191640,
-                "clfrxh9le1sluluks7p0eduer": 1687512193477,
-                "clgr24zmt0000pk01851e2uem": 1682113602776
-            },
-            "genre": ["Drama", "Psychological", "Sci-Fi", "Action", "Fantasy"]
-        },
-        {
-            "id": "clfrutw900067jslualgc42tu",
-            "slug": "i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too",
-            "anilistId": 153845,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153845-C47aoKy7wf19.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/153845-qcUXgT0toF1J.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "異世界でチート能力を手にした俺は、現実世界をも無双する",
-                "romaji": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta",
-                "english": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",
-                "userPreferred": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta"
-            },
-            "mappings": {
-                "mal": 52830,
-                "anidb": 17580,
-                "kitsu": 46370,
-                "anilist": 153845,
-                "thetvdb": 423653,
-                "anisearch": 17627,
-                "livechart": 11384,
-                "notify.moe": "0bZQAoKVg",
-                "anime-planet": "i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too"
-            },
-            "currentEpisode": 13,
-            "next": null,
-            "synonyms": [
-                "I Got a Cheat Ability in a Different World, and Became Extraordinary Even in the Real World",
-                "Isekai de Cheat Nouryoku Ote ni Shita Ore wa, Genjitsu Sekai o mo Musou Suru",
-                "สกิลโกงไร้เทียมทาน สร้างตำนานในสองโลก: ชีวิตพลิกผันด้วยการอัปเลเวล",
-                "Ganhei um Poder Apelão em Outro Mundo e Agora Sou Imbatível no Mundo Real",
-                "Iseleve",
-                "在异世界获得超强能力的我，在现实世界照样无敌～等级提升改变人生命运"
+            "episodes": [
+                {
+                    "mal_id": 50,
+                    "url": "https://myanimelist.net/anime/1559/Shijou_Saikyou_no_Deshi_Kenichi/episode/50",
+                    "title": "Episode 50",
+                    "premium": false
+                },
+                {
+                    "mal_id": 49,
+                    "url": "https://myanimelist.net/anime/1559/Shijou_Saikyou_no_Deshi_Kenichi/episode/49",
+                    "title": "Episode 49",
+                    "premium": false
+                }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-28T17:41:55.316Z",
-            "seasonInt": 232,
-            "description": "All his life, Yuuya has been bullied at school and neglected by his parents. After moving into his late grandfather’s home, he discovers a strange door that seems to be calling out to him. Yuuya opens the door, steps inside, and is suddenly transported to a magical world! This new world holds rare treasures and grants him powerful skills, which he takes back to Earth for a new lease on life.<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 64,
-            "popularity": 56870,
-            "color": "#86281a",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:51.111Z",
-            "updatedAt": "2023-07-02T14:00:01.046Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687974290021, "clfrxh9le1sluluks7p0eduer": 1687974291626 },
-            "genre": ["Action", "Fantasy", "Adventure", "Romance"]
+            "region_locked": true
         },
         {
-            "id": "clfrzn5kv001s01pka9sacfwa",
-            "slug": "case-closed",
-            "anilistId": 235,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx235-XucEZpR3CRaV.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/235-MTmiz0uB0fMd.jpg",
-            "status": "RELEASING",
-            "season": "WINTER",
-            "title": { "native": "名探偵コナン", "romaji": "Meitantei Conan", "english": "Case Closed", "userPreferred": "Meitantei Conan" },
-            "mappings": {
-                "mal": 235,
-                "anidb": 266,
-                "kitsu": 210,
-                "anilist": 235,
-                "thetvdb": 72454,
-                "anisearch": 1721,
-                "livechart": 319,
-                "notify.moe": "lWnhcKiig",
-                "anime-planet": "detective-conan"
+            "entry": {
+                "mal_id": 1254,
+                "url": "https://myanimelist.net/anime/1254/Saint_Seiya",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Saint Seiya"
             },
-            "currentEpisode": 1088,
-            "next": "2023-07-08T09:00:00.000Z",
-            "synonyms": [
-                "Detective Conan",
-                "Detectiu Conan",
-                "הבלש קונאן",
-                "Detektyw Conan",
-                "المحقق كونان",
-                "名侦探柯南",
-                "Meitantei Conan: Keisaku Gakkou Hen - Wild Police Story",
-                "名探偵コナン 警察学校編 Wild Police Story",
-                "Détective Conan",
-                "ยอดนักสืบจิ๋วโคนัน",
-                "Thám Tử Lừng Danh Conan"
+            "episodes": [
+                { "mal_id": 114, "url": "https://myanimelist.net/anime/1254/Saint_Seiya/episode/114", "title": "Episode 114", "premium": true },
+                { "mal_id": 113, "url": "https://myanimelist.net/anime/1254/Saint_Seiya/episode/113", "title": "Episode 113", "premium": true }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-24T13:41:00.817Z",
-            "seasonInt": 961,
-            "description": "Kudo Shinichi is a seventeen year-old high school detective whom people call the \"Modern Sherlock Holmes.\" However, one night after a date with his childhood sweetheart, Ran, Shinichi witnessed an illegal trade and, caught off his guard, was knocked unconscious and fed a drug that was supposed to kill him... but he woke up and found himself shrunken to a seven year-old. In order to track down the men who did this to him, Shinichi hid his identity and lived with Ran, whose father happened to be a hopeless detective, and with that came a series of murders and mysteries that he must solve. <br><br>\n(Source: Anime News Network)\n<br><br>\n<i>Note:<br>\n- Includes Keisatsu Gakkou-hen - Wild Police Story in episodes 1029, 1038, 1042, 1061<br>\n- Episodes 11, 52, 76, 118, 162, 184, 208, 342, 356, 449, 452, 487, 488, 489, 490, 515, 516, 521, 522, 651, 734, 804, 805, 927, 928 aired with a runtime of ~50 minutes as opposed to the standard 25 minute long episode.<br>\n- Episodes 96, 129, 174, 219, 263, 304, 383, 479 aired with a runtime of ~90 minutes as opposed to the standard 25 minute long episode.<br>\n- Episode 345, 425 aired with a runtime of ~115 minutes as opposed to the standard 25 minute long episode.<br>\n</i>",
-            "duration": 25,
-            "averageScore": 81,
-            "popularity": 52697,
-            "color": "#28a1e4",
-            "year": 1996,
-            "createdAt": "2023-03-28T08:20:34.706Z",
-            "updatedAt": "2023-07-02T14:43:49.304Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1688309023207, "clfrxh9le1sluluks7p0eduer": 1688309025971 },
-            "genre": ["Psychological", "Comedy", "Adventure", "Mystery"]
+            "region_locked": true
         },
         {
-            "id": "clfrutui1005yjslufe8lg96n",
-            "slug": "insomniacs-after-school",
-            "anilistId": 143653,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143653-h6NEdWxKIRza.png",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143653-cvWrYzJPgDkV.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "君は放課後インソムニア",
-                "romaji": "Kimi wa Houkago Insomnia",
-                "english": "Insomniacs after school",
-                "userPreferred": "Kimi wa Houkago Insomnia"
+            "entry": {
+                "mal_id": 900,
+                "url": "https://myanimelist.net/anime/900/Dragon_Ball_Z_Movie_07__Kyokugen_Battle_Sandai_Super_Saiyajin",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Dragon Ball Z Movie 07: Kyokugen Battle!! Sandai Super Saiyajin"
             },
-            "mappings": {
-                "mal": 50796,
-                "anidb": 17131,
-                "kitsu": 45746,
-                "anilist": 143653,
-                "thetvdb": 414562,
-                "anisearch": 17005,
-                "livechart": 11024,
-                "notify.moe": "jQEU6Ab7g",
-                "anime-planet": "insomniacs-after-school"
-            },
-            "currentEpisode": 12,
-            "next": "2023-07-03T15:00:00.000Z",
-            "synonyms": ["Insomniaques", "ถ้านอนไม่หลับไปนับดาวกันไหม", "放学后失眠的你"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-26T16:42:22.770Z",
-            "seasonInt": 232,
-            "description": "Ganta Nakami is a high school student who suffers from insomnia. One day, he meets Isaki Magari, a girl with the same condition. A strange, but special relationship forms as they share a secret and catch up on their sleep in their school’s abandoned observatory…<br>\n<br>\n(Source: HIDIVE)",
-            "duration": 24,
-            "averageScore": 78,
-            "popularity": 46858,
-            "color": "#1a4386",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:48.842Z",
-            "updatedAt": "2023-07-02T14:40:36.829Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687797742771, "clfrxh9le1sluluks7p0eduer": 1687797744272 },
-            "genre": ["Slice of Life", "Romance"]
-        },
-        {
-            "id": "clfrutcvc003pjslu39t860q5",
-            "slug": "horimiya:-the-missing-pieces",
-            "anilistId": 163132,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163132-C220CO5UrTxY.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/163132-bxxTKGlmlnOm.jpg",
-            "status": "RELEASING",
-            "season": "SUMMER",
-            "title": {
-                "native": "ホリミヤ -piece-",
-                "romaji": "Horimiya -piece- ",
-                "english": "Horimiya: The Missing Pieces",
-                "userPreferred": "Horimiya -piece- "
-            },
-            "mappings": {
-                "mal": 54856,
-                "anidb": 17946,
-                "kitsu": 47234,
-                "anilist": 163132,
-                "anisearch": 18306,
-                "livechart": 11900,
-                "notify.moe": "Ng5Wu1fVg",
-                "anime-planet": "horimiya-the-missing-pieces"
-            },
-            "currentEpisode": 1,
-            "next": "2023-07-08T14:30:00.000Z",
-            "synonyms": [],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-07-01T17:23:23.851Z",
-            "seasonInt": 233,
-            "description": "A new anime project adapting popular side stories that were left out from the previous adaptation.",
-            "duration": 24,
-            "averageScore": 81,
-            "popularity": 39562,
-            "color": "#e4a143",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:25.994Z",
-            "updatedAt": "2023-07-02T14:43:08.964Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9le1sluluks7p0eduer": 1688308988414 },
-            "genre": ["Comedy", "Slice of Life", "Romance"]
-        },
-        {
-            "id": "clfrutjzt004hjslua4zr60j8",
-            "slug": "dead-mount-death-play",
-            "anilistId": 157198,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx157198-LVZ7PgxWwc6v.jpg",
-            "bannerImage": null,
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "デッドマウント・デスプレイ",
-                "romaji": "Dead Mount Death Play",
-                "english": "Dead Mount Death Play",
-                "userPreferred": "Dead Mount Death Play"
-            },
-            "mappings": {
-                "mal": 53613,
-                "anidb": 17719,
-                "kitsu": 46760,
-                "anilist": 157198,
-                "thetvdb": 427239,
-                "anisearch": 17849,
-                "livechart": 11611,
-                "notify.moe": "8t8sdoKVR",
-                "anime-planet": "dead-mount-death-play"
-            },
-            "currentEpisode": 12,
-            "next": null,
-            "synonyms": ["屍體如山的死亡遊戲"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-26T16:22:30.768Z",
-            "seasonInt": 232,
-            "description": "As a legendary hero nears victory against a necromancer known as The Corpse God, things take an unexpected turn with the dark sorcerer’s final gambit—reincarnation magic. This last-ditch effort catches the brave fighter off guard, and now he’s a boy named Polka Shinoyama in a whole new world! The showdown between good and evil just got epic.<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 71,
-            "popularity": 39042,
-            "color": null,
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:35.227Z",
-            "updatedAt": "2023-07-02T14:00:01.135Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687796719188, "clfrxh9le1sluluks7p0eduer": 1687796720714 },
-            "genre": ["Action", "Fantasy", "Supernatural", "Thriller"]
-        },
-        {
-            "id": "clfrutrcq005ijsluf1o50ojt",
-            "slug": "kamikatsu:-working-for-god-in-a-godless-world",
-            "anilistId": 148048,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx148048-IaEk51Wtu07L.jpg",
-            "bannerImage": null,
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "神無き世界のカミサマ活動",
-                "romaji": "Kaminaki Sekai no Kamisama Katsudou",
-                "english": "KamiKatsu: Working for God in a Godless World",
-                "userPreferred": "Kaminaki Sekai no Kamisama Katsudou"
-            },
-            "mappings": {
-                "mal": 51693,
-                "anidb": 17337,
-                "kitsu": 46089,
-                "anilist": 148048,
-                "thetvdb": 419126,
-                "anisearch": 17328,
-                "livechart": 11192,
-                "notify.moe": "BOkWPPw7g",
-                "anime-planet": "kamikatsu-working-for-god-in-a-godless-world"
-            },
-            "currentEpisode": 11,
-            "next": "2023-07-05T15:30:00.000Z",
-            "synonyms": [
-                "What God Does in a World Without Gods",
-                "KamiKatsu: Atividades Divinas em um Mundo sem Deuses ",
-                "Kamisama : Opération Divine",
-                "KamiKatsu",
-                "KamiKatsu: Meine Arbeit als Missionar in einer gottlosen Welt",
-                "โลกนี้ โลกหน้า ข้าก็เป็นพระเจ้า",
-                "KamiKatsu: Как быть богу в мире без богов?"
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/900/Dragon_Ball_Z_Movie_07__Kyokugen_Battle_Sandai_Super_Saiyajin/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-28T19:01:22.297Z",
-            "seasonInt": 232,
-            "description": "As heir to a cult leader, Yukito centers his life around the mysterious goddess Mitama. But everything changes after he’s killed during a ritual gone wrong. To his surprise, Yukito is reborn into a world with no concept of god! And in this world, life and death are decided by the Imperial State. As Yukito fights to protect his new village, someone from his past life lends a helping hand.<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 65,
-            "popularity": 35224,
-            "color": "#e4ae5d",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:44.763Z",
-            "updatedAt": "2023-07-02T14:40:36.247Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1687979016428,
-                "clfrxh9le1sluluks7p0eduer": 1687979018001,
-                "clgr24zmt0000pk01851e2uem": 1682113600530
-            },
-            "genre": ["Drama", "Comedy", "Action", "Fantasy", "Ecchi"]
+            "region_locked": true
         },
         {
-            "id": "clfrutqkj005ejslu0fwp7k0y",
-            "slug": "summoned-to-another-world-for-a-second-time",
-            "anilistId": 140754,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140754-JHwGp7NrAj9m.png",
-            "bannerImage": null,
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "異世界召喚は二度目です",
-                "romaji": "Isekai Shoukan wa Nidome desu",
-                "english": "Summoned to Another World for a Second Time",
-                "userPreferred": "Isekai Shoukan wa Nidome desu"
+            "entry": {
+                "mal_id": 899,
+                "url": "https://myanimelist.net/anime/899/Dragon_Ball_Z_Movie_06__Gekitotsu_100-oku_Power_no_Senshi-tachi",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Dragon Ball Z Movie 06: Gekitotsu!! 100-oku Power no Senshi-tachi"
             },
-            "mappings": {
-                "mal": 50220,
-                "anidb": 16936,
-                "kitsu": 45387,
-                "anilist": 140754,
-                "thetvdb": 411893,
-                "anisearch": 16681,
-                "livechart": 10856,
-                "notify.moe": "dxWI9HK7R",
-                "anime-planet": "summoned-to-another-world-for-a-second-time"
-            },
-            "currentEpisode": 12,
-            "next": null,
-            "synonyms": [
-                "Summoned to Another World... Again?!",
-                "Invocado Para Outro Mundo... De Novo?!",
-                "Je me fais isekai pour la deuxième fois... Ça commence à faire beaucoup."
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/899/Dragon_Ball_Z_Movie_06__Gekitotsu_100-oku_Power_no_Senshi-tachi/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-24T19:42:43.583Z",
-            "seasonInt": 232,
-            "description": "There was once a hero who was summoned to another world, and he saved that world. However, the man was caught in a \"trap\" and was forcibly returned to his original world. On top of that, he had to start over as a baby… This is the story of a crazy journey in another world where a former hero who was reincarnated into a slightly gloomy high school student is \"resummoned\" back to that same world! There's a lot of room to work with when it's the second time, huh♪<br>\n<br>\n(Source: Coolmic)",
-            "duration": 24,
-            "averageScore": 57,
-            "popularity": 30676,
-            "color": "#e4bb50",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:43.748Z",
-            "updatedAt": "2023-07-02T14:00:01.253Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687635940486, "clfrxh9le1sluluks7p0eduer": 1687635942273 },
-            "genre": ["Comedy", "Fantasy", "Adventure"]
+            "region_locked": true
         },
         {
-            "id": "clfrusvdl001ajsluhybn8yr5",
-            "slug": "the-ancient-magus'-bride-season-2",
-            "anilistId": 154364,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154364-ZFPtr9F1sW60.png",
-            "bannerImage": null,
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "魔法使いの嫁 SEASON2",
-                "romaji": "Mahoutsukai no Yome SEASON 2",
-                "english": "The Ancient Magus’ Bride Season 2",
-                "userPreferred": "Mahoutsukai no Yome SEASON 2"
+            "entry": {
+                "mal_id": 898,
+                "url": "https://myanimelist.net/anime/898/Dragon_Ball_Z_Movie_05__Tobikkiri_no_Saikyou_tai_Saikyou",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Dragon Ball Z Movie 05: Tobikkiri no Saikyou tai Saikyou"
             },
-            "mappings": {
-                "mal": 52955,
-                "anidb": 17599,
-                "kitsu": 46436,
-                "anilist": 154364,
-                "thetvdb": 316842,
-                "anisearch": 17653,
-                "livechart": 11456,
-                "notify.moe": "ERmmnwG4g",
-                "anime-planet": "the-ancient-magus-bride-season-2"
-            },
-            "currentEpisode": 12,
-            "next": null,
-            "synonyms": ["Mahoyome 2", "เจ้าสาวผมแดงกับจอมเวทอสูร ภาค 2", "Невеста чародея 2"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-22T15:40:50.204Z",
-            "seasonInt": 232,
-            "description": "The second season of <i>Mahoutsukai no Yome</i>. <br><br>\nChise was able to accept Elias and herself, if not necessarily everything about her situation. After Cartaphilus fell back into a slumber that would not last forever, Chise was able to go back to her regular life. Then she receives an invitation from a mutual aid organization for mages called the College. Under the British Library exists a secret society of mages. Encounters and interactions with people are about to open some new doors. This is a story about saving yourself to save another. <br><br>\n(Source: Crunchyroll) <br><br>\n\n<i>Note: Episode 1 of season two premiered in a preview screening event together with \"Fuyu no Okorimono\" at Tachikawa Cinema City's Cinema Two in Tokyo on March 11, 2023.</i>\n\n ",
-            "duration": 24,
-            "averageScore": 77,
-            "popularity": 29000,
-            "color": "#f16b35",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:03.329Z",
-            "updatedAt": "2023-07-02T14:00:01.225Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1687448670472,
-                "clfrxh9le1sluluks7p0eduer": 1687448672473,
-                "clgr24zmt0000pk01851e2uem": 1682113546719
-            },
-            "genre": ["Drama", "Slice of Life", "Fantasy", "Supernatural", "Romance"]
-        },
-        {
-            "id": "clfruu1yr006yjslu39togpv6",
-            "slug": "a-galaxy-next-door",
-            "anilistId": 148098,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx148098-MI9Rm8JVhSh0.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/148098-Zdw10Iuvojnz.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": { "native": "おとなりに銀河", "romaji": "Otonari ni Ginga", "english": "A Galaxy Next Door", "userPreferred": "Otonari ni Ginga" },
-            "mappings": {
-                "mal": 51705,
-                "anidb": 17339,
-                "kitsu": 46083,
-                "anilist": 148098,
-                "thetvdb": 419490,
-                "anisearch": 17330,
-                "livechart": 11195,
-                "notify.moe": "Fv9eNzOVR",
-                "anime-planet": "a-galaxy-next-door"
-            },
-            "currentEpisode": 12,
-            "next": null,
-            "synonyms": ["Uma Vizinha de Outro Mundo", "鄰人似銀河"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-24T18:43:23.426Z",
-            "seasonInt": 232,
-            "description": "Ever since their father died, Ichirou Kuga has struggled to support his two younger siblings on nothing but a small inheritance and his passion for drawing manga. But it’s becoming harder to keep up with his growing responsibilities and deadlines, especially after his last two assistants quit to follow their dreams. <br>\n <br>\nJust as he’s nearing his breaking point, the beautiful and scarily competent Shiori Goshiki applies to become his new assistant. But there’s something almost otherworldly about Goshiki, and soon Kuga finds his reality turned upside down when she suddenly declares them engaged to marry!<br>\n<br>(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 68,
-            "popularity": 28322,
-            "color": "#5daee4",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:58.518Z",
-            "updatedAt": "2023-07-02T14:00:01.260Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687632438656, "clfrxh9le1sluluks7p0eduer": 1687632440592 },
-            "genre": ["Comedy", "Romance"]
-        },
-        {
-            "id": "clfrute28003vjsluguti81wt",
-            "slug": "why-raeliana-ended-up-at-the-duke's-mansion",
-            "anilistId": 151847,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151847-OnTYbvb4y4mp.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151847-S1pTlfRY2DqB.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "彼女が公爵邸に行った理由",
-                "romaji": "Kanojo ga Koushaku-tei ni Itta Riyuu",
-                "english": "Why Raeliana Ended Up at the Duke’s Mansion",
-                "userPreferred": "Kanojo ga Koushaku-tei ni Itta Riyuu"
-            },
-            "mappings": {
-                "mal": 52308,
-                "anidb": 17498,
-                "kitsu": 46233,
-                "anilist": 151847,
-                "thetvdb": 422039,
-                "anisearch": 17509,
-                "livechart": 11321,
-                "notify.moe": "lGDYPpRVg",
-                "anime-planet": "the-reason-why-raeliana-ended-up-at-the-dukes-mansion"
-            },
-            "currentEpisode": 12,
-            "next": null,
-            "synonyms": [
-                "그녀가 공작저로 가야 했던 사정",
-                "Geunyeoga Gongjagjeolo Gaya Haessdeon Sajeong",
-                "พระเอกของฉันเป็นท่านดยุค",
-                "Como Raeliana Foi Parar na Mansão do Duque",
-                "Comment Raeliana a survécu au manoir Wynknight",
-                "The Reason Why Raeliana Ended up at the Duke's Mansion",
-                "Raeliana: Warum sie die Verlobte des Dukes wurde"
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/898/Dragon_Ball_Z_Movie_05__Tobikkiri_no_Saikyou_tai_Saikyou/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
             ],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-26T14:10:46.395Z",
-            "seasonInt": 232,
-            "description": "Living inside a fairy tale may sound like a dream, but for this heroine, it’s more of a nightmare. After her mysterious death, Rinko is reborn as Raeliana—a loved and wealthy character in a novel. But she knows the ending: her murder at the hands of her fiancé. So, she hatches a plan to stay alive, one that involves a devilish duke and a phony engagement. Can she rewrite her story?<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 73,
-            "popularity": 25892,
-            "color": "#e48650",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:27.538Z",
-            "updatedAt": "2023-07-02T14:00:01.193Z",
-            "format": "TV",
-            "lastChecks": { "clfrxh9h51slsluksocdfxs09": 1687788646395, "clfrxh9le1sluluks7p0eduer": 1687788648266 },
-            "genre": ["Comedy", "Fantasy", "Romance", "Mystery"]
+            "region_locked": true
         },
         {
-            "id": "clfrutgzs0042jslu1sydgxqu",
-            "slug": "the-legendary-hero-is-dead!",
-            "anilistId": 148109,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx148109-cwAINDGwAHB2.jpg",
-            "bannerImage": null,
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "勇者が死んだ！",
-                "romaji": "Yuusha ga Shinda!",
-                "english": "The Legendary Hero is Dead!",
-                "userPreferred": "Yuusha ga Shinda!"
+            "entry": {
+                "mal_id": 897,
+                "url": "https://myanimelist.net/anime/897/Dragon_Ball_Z_Movie_04__Super_Saiyajin_da_Son_Gokuu",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Dragon Ball Z Movie 04: Super Saiyajin da Son Gokuu"
             },
-            "mappings": {
-                "mal": 51706,
-                "anidb": 17340,
-                "kitsu": 46087,
-                "anilist": 148109,
-                "thetvdb": 419500,
-                "anisearch": 17334,
-                "livechart": 11196,
-                "notify.moe": "6Q2dcjw7g",
-                "anime-planet": "the-legendary-hero-is-dead"
-            },
-            "currentEpisode": 12,
-            "next": null,
-            "synonyms": ["勇者死了！", "เมื่อผู้กล้าลาโลกแล้ว!", "Герой мёртв!"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-22T17:07:08.126Z",
-            "seasonInt": 232,
-            "description": "In a world of monsters and magic, Sion, the local hero, is on his way to save the world from demons. Well, that was the plan until he fell into a pit dug by a sleazy villager, Touka, and died! After hiding the accident, Touka goes to bed as usual but wakes up feeling…different. Somehow he’s in Sion’s body! Now, the fate of the world is in his hands. What could go wrong?<br>\n<br>\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 59,
-            "popularity": 25552,
-            "color": "#5dbbe4",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:31.338Z",
-            "updatedAt": "2023-07-02T14:00:01.277Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1687453625267,
-                "clfrxh9le1sluluks7p0eduer": 1687453627333,
-                "clgr24zmt0000pk01851e2uem": 1682113604915
-            },
-            "genre": ["Comedy", "Action", "Fantasy", "Adventure", "Ecchi"]
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/897/Dragon_Ball_Z_Movie_04__Super_Saiyajin_da_Son_Gokuu/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
         },
         {
-            "id": "clfrutrkt005jjslueuz2997c",
-            "slug": "magical-destroyers",
-            "anilistId": 134131,
-            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134131-70vYnpBHFtHy.jpg",
-            "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/134131-siBEZs8r1uzS.jpg",
-            "status": "RELEASING",
-            "season": "SPRING",
-            "title": {
-                "native": "魔法少女マジカルデストロイヤーズ",
-                "romaji": "Mahou Shoujo Magical Destroyers",
-                "english": "Magical Destroyers",
-                "userPreferred": "Mahou Shoujo Magical Destroyers"
+            "entry": {
+                "mal_id": 895,
+                "url": "https://myanimelist.net/anime/895/Dragon_Ball_Z_Movie_02__Kono_Yo_de_Ichiban_Tsuyoi_Yatsu",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Dragon Ball Z Movie 02: Kono Yo de Ichiban Tsuyoi Yatsu"
             },
-            "mappings": {
-                "mal": 48981,
-                "anidb": 16320,
-                "kitsu": 44586,
-                "anilist": 134131,
-                "thetvdb": 402893,
-                "anisearch": 16990,
-                "livechart": 10580,
-                "notify.moe": "MLnfKfTng",
-                "anime-planet": "magical-destroyers"
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/895/Dragon_Ball_Z_Movie_02__Kono_Yo_de_Ichiban_Tsuyoi_Yatsu/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 896,
+                "url": "https://myanimelist.net/anime/896/Dragon_Ball_Z_Movie_03__Chikyuu_Marugoto_Choukessen",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Dragon Ball Z Movie 03: Chikyuu Marugoto Choukessen"
             },
-            "currentEpisode": 12,
-            "next": null,
-            "synonyms": ["Magical Girl Destroyers", "สาวน้อยเวทมนตร์จอมล้างผลาญ", "Магические крушители"],
-            "countryOfOrigin": "JP",
-            "lastEpisodeUpdate": "2023-06-23T19:20:49.044Z",
-            "seasonInt": 232,
-            "description": "Freedom of expression is threatened when a mysterious group, the SSC, destroy Japan’s otaku culture. However, a young revolutionary, Otaku Hero—who loves the culture more than anything—rises up. With the help of three rambunctious magical girls—Anarchy, Blue, and Pink—they’ll team up to create a world free of this oppressive rule. Be part of the rebellion to bring back fandom!<br><br>\n\n(Source: Crunchyroll)",
-            "duration": 24,
-            "averageScore": 63,
-            "popularity": 20693,
-            "color": "#5dbbf1",
-            "year": 2023,
-            "createdAt": "2023-03-28T06:05:45.055Z",
-            "updatedAt": "2023-07-02T14:00:01.159Z",
-            "format": "TV",
-            "lastChecks": {
-                "clfrxh9h51slsluksocdfxs09": 1687548049044,
-                "clfrxh9le1sluluks7p0eduer": 1687548050956,
-                "clgr24zmt0000pk01851e2uem": 1682113634630
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/896/Dragon_Ball_Z_Movie_03__Chikyuu_Marugoto_Choukessen/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 894,
+                "url": "https://myanimelist.net/anime/894/Dragon_Ball_Z_Movie_01__Ora_no_Gohan_wo_Kaese",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "small_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png",
+                        "large_image_url": "https://cdn.myanimelist.net/images/icon-banned-youtube-rect.png"
+                    }
+                },
+                "title": "Dragon Ball Z Movie 01: Ora no Gohan wo Kaese!!"
             },
-            "genre": ["Comedy", "Action", "Mahou Shoujo", "Ecchi"]
+            "episodes": [
+                {
+                    "mal_id": 1,
+                    "url": "https://myanimelist.net/anime/894/Dragon_Ball_Z_Movie_01__Ora_no_Gohan_wo_Kaese/episode/1",
+                    "title": "Episode 1",
+                    "premium": true
+                }
+            ],
+            "region_locked": true
+        },
+        {
+            "entry": {
+                "mal_id": 53446,
+                "url": "https://myanimelist.net/anime/53446/Tondemo_Skill_de_Isekai_Hourou_Meshi",
+                "images": {
+                    "jpg": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/1661/131889.jpg",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/1661/131889t.jpg",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/1661/131889l.jpg"
+                    },
+                    "webp": {
+                        "image_url": "https://cdn.myanimelist.net/images/anime/1661/131889.webp",
+                        "small_image_url": "https://cdn.myanimelist.net/images/anime/1661/131889t.webp",
+                        "large_image_url": "https://cdn.myanimelist.net/images/anime/1661/131889l.webp"
+                    }
+                },
+                "title": "Tondemo Skill de Isekai Hourou Meshi"
+            },
+            "episodes": [
+                {
+                    "mal_id": 12,
+                    "url": "https://myanimelist.net/anime/53446/Tondemo_Skill_de_Isekai_Hourou_Meshi/episode/12",
+                    "title": "Episode 12",
+                    "premium": true
+                },
+                {
+                    "mal_id": 11,
+                    "url": "https://myanimelist.net/anime/53446/Tondemo_Skill_de_Isekai_Hourou_Meshi/episode/11",
+                    "title": "Episode 11",
+                    "premium": true
+                }
+            ],
+            "region_locked": false
         }
-    ],
-    "meta": { "total": 209, "lastPage": 11, "currentPage": 1, "perPage": 20, "prev": null, "next": 2 }
+    ]
 }

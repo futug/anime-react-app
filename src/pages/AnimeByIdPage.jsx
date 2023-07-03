@@ -1,6 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Videos from "../components/Videos";
+import Loader from "../components/Loader";
 
 export const AnimeByIdPage = ({ props, mal_id }) => {
     const params = useParams();
@@ -34,11 +36,12 @@ export const AnimeByIdPage = ({ props, mal_id }) => {
 
     useEffect(() => {
         console.log(postBase);
+        // getEpisodes();
         getById();
     }, [params]);
 
     if (postBase.isLoading) {
-        return <h1>Loading...</h1>;
+        return <Loader descripton={"Loading..."} />;
     }
 
     if (postBase.error) {
@@ -57,7 +60,7 @@ export const AnimeByIdPage = ({ props, mal_id }) => {
             <div className="text-[#c7ccd8] px-3">
                 <div className="anime-page__title-group w-full mt-5 lg:mt-0 xl:mt-0 bg-[#283142] border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md">
                     <h1 className="anime-page__title font-semibold text-center text-lg">
-                        {postBase.data.title_english} / <span>{postBase.data.title_japanese}</span> [ Episodes - <span>{postBase.data.episodes}</span>]{" "}
+                        {postBase?.data.title_english} / <span>{postBase.data?.title_japanese}</span> [ Episodes - <span>{postBase.data.episodes}</span>]{" "}
                         <span>{postBase.data.year}</span>
                     </h1>
                 </div>
@@ -85,32 +88,33 @@ export const AnimeByIdPage = ({ props, mal_id }) => {
                                     {postBase.data.genres.map((genre, index) => {
                                         return (
                                             <p key={index} className="bg-[#a52066]  font-bold text-xs p-1 px-1">
-                                                {genre.name}
+                                                {genre?.name}
                                             </p>
                                         );
                                     })}
                                 </div>
                                 <p>{postBase.data.source}</p>
                                 <p>{postBase.data.aired.from.split("T")[0]}</p>
-                                <p>{postBase.data.studios[0].name}</p>
+                                <p>{postBase.data.studios[0]?.name}</p>
                                 <p>{postBase.data.rating}</p>
                                 <p>{postBase.data.duration}</p>
-                                <p>
+                                <div>
                                     {postBase.data.relations.map((item, index) => {
                                         return (
                                             <p key={index}>
                                                 {item.entry[0].type}
                                                 &nbsp;
-                                                {item.entry[0].name}
+                                                {item.entry[0]?.name}
                                             </p>
                                         );
                                     })}
-                                </p>
+                                </div>
                             </div>
                         </div>
                         <p className="mt-5">{postBase.data.synopsis}</p>
                     </div>
                 </div>
+                <Videos params={params} />
             </div>
         );
 };
