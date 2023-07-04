@@ -21,14 +21,23 @@ function App() {
     const [genres, setGenres] = useState([]);
     const [randomAnime, setRandomAnime] = useState([]);
     const [topHundred, setTopHundred] = useState([]);
+    const [isClicked, setIsClicked] = useState(false);
+
+    const clickHandler = () => {
+        setIsClicked(!isClicked);
+    };
 
     useEffect(() => {
         anotherFetch();
         getAllGenres();
         getHundredAnimes();
-        getRandomAnime();
+
         getEpisodes();
     }, []);
+
+    useEffect(() => {
+        getRandomAnime();
+    }, [isClicked]);
 
     async function getRandomAnime() {
         setIsloading(true);
@@ -71,7 +80,7 @@ function App() {
                         <div className="block xl:grid lg:grid grid-cols-[25%,75%] mt-5">
                             <div>
                                 <Genres genres={genres} />
-                                <RandomAnime randomAnime={randomAnime} isLoading={setIsloading} />
+                                <RandomAnime isClicked={isClicked} clickHandler={clickHandler} randomAnime={randomAnime} isLoading={setIsloading} />
                             </div>
                             <AppRouter topHundred={topHundred} />
                         </div>

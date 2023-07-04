@@ -12,7 +12,6 @@ const RandomAnime = (props) => {
             setShowImage(true);
             setGenres(props.randomAnime.genres);
         }, 1000);
-
         props.isLoading(false);
     }, []);
 
@@ -23,7 +22,7 @@ const RandomAnime = (props) => {
                     <GiPerspectiveDiceSixFacesRandom size={20} />
                     <p className="font-semibold text-lg">Random title for you</p>
                 </div>
-                <Link to={`/Random/${props.randomAnime.mal_id}`}>
+                <Link onClick={() => props.clickHandler()} to={`/Random/${props.randomAnime.mal_id}`}>
                     <div className="random-anime__card h-full flex flex-col items-center lg:items-start xl:items-start gap-2 mt-3">
                         <div>
                             <h2 className="random-anime__card-title font-semibold">

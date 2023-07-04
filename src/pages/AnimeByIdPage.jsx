@@ -114,7 +114,7 @@ export const AnimeByIdPage = ({ props, mal_id }) => {
                         <p className="mt-5">{postBase.data.synopsis}</p>
                     </div>
                 </div>
-                <Videos params={params} />
+                <Videos postBase={postBase} params={params} />
             </div>
         );
 };
