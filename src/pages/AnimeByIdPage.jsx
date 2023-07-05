@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Videos from "../components/Videos";
 import Loader from "../components/Loader";
+import MyCardButton from "../components/MyCardButton";
 
 export const AnimeByIdPage = ({ props, mal_id }) => {
     const params = useParams();
@@ -11,6 +12,11 @@ export const AnimeByIdPage = ({ props, mal_id }) => {
         data: null,
         error: false,
     });
+
+    const [isSeen, setIsSeen] = useState(false);
+    const handlerIsSeen = () => {
+        setIsSeen(!isSeen);
+    };
 
     async function getById() {
         setPostBase((current) => ({
@@ -66,6 +72,7 @@ export const AnimeByIdPage = ({ props, mal_id }) => {
                 </div>
                 <div className="anime-page__info-body mt-5 flex flex-wrap lg:flex-nowrap xl:flex-nowrap gap-3">
                     <img className="w-[300px] h-[450px]" src={postBase.data.images.jpg.large_image_url} alt="anime poster" />
+
                     <div>
                         <div className="grid grid-cols-2 grid-rows-10 w-full">
                             <div className="font-semibold">
@@ -79,6 +86,8 @@ export const AnimeByIdPage = ({ props, mal_id }) => {
                                 <p>Rating:</p>
                                 <p>Duration:</p>
                                 <p>Relations:</p>
+                                <MyCardButton>Add to collection</MyCardButton>
+                                <MyCardButton>Watch now!</MyCardButton>
                             </div>
                             <div>
                                 <p>{postBase.data.type}</p>

@@ -68,6 +68,7 @@ function App() {
         console.log(episodesBase.data.data);
     }
 
+    const date = new Date();
     return (
         <BrowserRouter>
             <div className="App px-3 max-w-[1300px] mx-auto">
@@ -86,6 +87,12 @@ function App() {
                         </div>
                     </>
                 )}
+                <div className="w-full mt-11 lg:mt-0 xl:mt-11 bg-[#283142] border-t-2 border-[#a52066] p-3 text-[#c7ccd8] rounded-md flex justify-center gap-0 text-xs">
+                    <p>© All rights reserved by BestAnime.org.</p>
+                    <p>
+                        2021 - <span>{date.getFullYear()}</span>
+                    </p>
+                </div>
             </div>
         </BrowserRouter>
     );

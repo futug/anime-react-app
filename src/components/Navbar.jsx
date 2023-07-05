@@ -8,6 +8,7 @@ import { BiSolidLogIn } from "react-icons/bi";
 import LoginModal from "./LoginModal";
 import Search from "./Search";
 import { Link } from "react-router-dom";
+import SearchDropList from "./SearchDropList";
 
 export const Navbar = (props) => {
     const [open, setOpen] = useState(false);
@@ -67,6 +68,7 @@ export const Navbar = (props) => {
 
                     {/* search */}
                     <Search className="hidden" search={"Search"} />
+                    {/* <SearchDropList /> */}
                     {/* log-in */}
                     <div className="text-[#c7ccd8] duration-75 transition-all ease-in-out hover:text-slate-100 cursor-pointer flex items-center">
                         <BiSolidLogIn onClick={() => handleLoginModal()} size={30} />

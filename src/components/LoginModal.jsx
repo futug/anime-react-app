@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import MyButton from "./MyButton";
 import { BsFillLockFill, BsFillPersonFill } from "react-icons/bs";
+import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const LoginModal = ({ active, setActive }) => {
     const handleLoginClose = (e) => {
         setActive(!active);
+        setLogin("");
+        setPassword("");
+    };
+    const [isSeen, setIsSeen] = useState(false);
+    const [login, setLogin] = useState("");
+    const [password, setPassword] = useState("");
+
+    const handlePassSeen = () => {
+        setIsSeen(!isSeen);
     };
 
     return (
@@ -28,12 +38,28 @@ const LoginModal = ({ active, setActive }) => {
                 <form action="" className="flex-col gap-3 flex">
                     <div className="inputs flex flex-col gap-3">
                         <div className="login max-w-[200px] bg-[#333c4d] rounded-xl flex justify-between items-center p-3 transition-bg duration-500 hover:bg-slate-700">
-                            <input type="login" placeholder="Login" className="bg-transparent focus: outline-none w-full ps-3 text-white" />
+                            <input
+                                type="login"
+                                onChange={(e) => setLogin(e.target.value)}
+                                placeholder="Login"
+                                className="bg-transparent focus: outline-none w-full ps-3 text-white"
+                                value={login}
+                            />
                             <BsFillPersonFill size={20} className="text-[#c7ccd8]" />
                         </div>
                         <div className="password max-w-[200px] bg-[#333c4d] rounded-xl flex justify-between items-center p-3 transition-bg duration-500 hover:bg-slate-700">
-                            <input type="password" placeholder="Password" className="bg-transparent focus: outline-none w-full ps-3 text-white" />
-                            <BsFillLockFill size={20} className="text-[#c7ccd8]" />
+                            <input
+                                onChange={(e) => setPassword(e.target.value)}
+                                type={!isSeen ? "password" : "text"}
+                                placeholder="Password"
+                                className="bg-transparent focus:outline-none w-full ps-3 text-white"
+                                value={password}
+                            />
+                            {!isSeen ? (
+                                <AiFillEye size={20} className="text-[#c7ccd8] cursor-pointer" onClick={handlePassSeen} />
+                            ) : (
+                                <AiFillEyeInvisible size={20} className="text-[#c7ccd8] cursor-pointer" onClick={handlePassSeen} />
+                            )}
                         </div>
                     </div>
                     <div className="buttons text-[#c7ccd8] flex justify-between items-center">
