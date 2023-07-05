@@ -10,7 +10,7 @@ const VideoTab = (props) => {
 
     return (
         <div>
-            <div className="flex flex-start w-[30%] bg-slate-800 relative">
+            <div className="flex flex-start md:w-[30%] bg-slate-800 relative">
                 <div className={`absolute bg-slate-600 top-0 ${isChosen ? "left-0" : "right-0"} w-[50%] h-full z-10`}></div>
                 <div onClick={isChosenHandler} className="p-3 w-[50%] cursor-pointer font-bold relative z-20">
                     Player #1
